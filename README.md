@@ -31,6 +31,7 @@ ___
 ```
 Os núcleos do angular foram divididos em 418 módulos. Isso nos traz proximidade do DDOS em nossos PC's quando executamos o npm -i. 
 ```
+___
 ### Novo @aistore
 ```
 Fjuncionalidade de IA (Inteligência Artificial), o @aistore poderá prever quando e como os valores poderão ser mudados usando dados de históricos, câmeras e microfones, podendo atualizar as views da mudança antes mesmo da mudança acontecer de fato. 
@@ -52,7 +53,7 @@ http://localhost:4200
 Pode editar alguma coisa no template e fazer um ng build para ver o resultado
 
 ```
-
+___
 ## Update 
 ```
 Se você já possui uma versão instalada na sua máquina, pode apenas atualizá-la da seguinte forma:
@@ -68,6 +69,6 @@ npm cache clean
 npm install -g @angular/cli@latest
 
 ```
-
+___
 Espero ter contribuído!
 Para mais informações de como usar o Angular e seus componentes, basta acessar a documentação original: https://angular.io/docs
