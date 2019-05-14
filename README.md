@@ -75,9 +75,9 @@ Para mais informações de como usar o Angular e seus componentes, basta acessar
 
 ## Fluxo de registro de sítio
 ```mermaid
-sequenceDiagram
-    participant John
-    participant Alice
-    Alice->>John: Hello John, how are you?
-    John-->>Alice: Great!
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
