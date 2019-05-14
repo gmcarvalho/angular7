@@ -76,15 +76,8 @@ Para mais informações de como usar o Angular e seus componentes, basta acessar
 ## Fluxo de registro de sítio
 ```mermaid
 sequenceDiagram
-
-participant cliente as Cliente
-participant sistema as Sistema
-participant bd as BD
-
-cliente ->> sistema: POST /propriedades
-sistema ->> sistema: Converte DTO em entidade
-sistema ->> sistema: Valida e ativa sítio para aparição na lista de sítios.
-sistema ->> bd: Cadastra registro de sítio.
-bd -->> sistema: OK 201 created
-sistema -->> cliente: Sítio ativo para público
+    participant John
+    participant Alice
+    Alice->>John: Hello John, how are you?
+    John-->>Alice: Great!
 ```
